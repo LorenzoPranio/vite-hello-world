@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-image: linear-gradient(to top, rgb(24, 31, 26), rgb(153, 153, 153));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,10 +25,13 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: goldenrod;
 }
 
 img{
   width: 600px;
+  border-radius: 50px;
+  border: 5px solid goldenrod;
 }
 
 .card {
