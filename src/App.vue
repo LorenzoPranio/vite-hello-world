@@ -1,16 +1,18 @@
 <script>
 import AppTitle from './components/apptitle.vue';
+import AppImg from './components/appimg.vue';
 export default{
   components:{
-    AppTitle
+    AppTitle,
+    AppImg
   }
-
 }
 </script>
 
 <template>
   <main>
     <AppTitle />
+    <AppImg />
   </main>
 </template>
 
